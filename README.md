@@ -1,8 +1,8 @@
-# FlyCast
+# FlyCast ✈️
 
-FlightCast es una aplicación para la gestión de rutas de vuelo, diseñada para pilotos y entusiastas de la aviación. Permite a los usuarios planificar sus vuelos teniendo en cuenta el análisis predictivo del clima y proporciona herramientas para una navegación segura y conveniente.
+FlyCast es una aplicación de gestión de rutas de vuelo diseñada para pilotos y entusiastas de la aviación. Permite a los usuarios planificar vuelos teniendo en cuenta el análisis predictivo del clima y proporciona herramientas para una navegación segura y conveniente.
 
-## Características
+## Características 🚀
 
 - **Análisis Predictivo del Clima**: Accede a datos históricos de Meteomatics para predecir las condiciones climáticas futuras en una ruta de vuelo específica.
 - **Perfil de Usuario Personalizado**: Los usuarios pueden crear y gestionar perfiles personalizados para guardar rutas favoritas y preferencias de vuelo.
@@ -14,22 +14,22 @@ FlightCast es una aplicación para la gestión de rutas de vuelo, diseñada para
 - **Seguimiento en Tiempo Real de Otros Aviones**: Sigue y visualiza otros aviones en tiempo real que realicen la misma ruta de vuelo.
 - **Interfaz de Usuario Intuitiva**: Una interfaz amigable que permite a los usuarios navegar fácilmente por las diferentes funcionalidades.
 
-## Instalación
+## Instalación 🛠️
 
 1. Clona este repositorio: `git clone https://github.com/leavil/flycast.git`
 2. Instala las dependencias: `npm install`
 3. Inicia la aplicación: `npm start`
 
-## Contribuciones
+## Contribuciones 🤝
 
 ¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, sigue estos pasos:
 
-1. Fork el proyecto
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`)
-3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`)
-4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abre un Pull Request
+1. Fork el proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
 
-## Licencia
+## Licencia 📝
 
 Este proyecto está bajo la [Licencia MIT](LICENSE).
