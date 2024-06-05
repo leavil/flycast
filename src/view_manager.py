@@ -1,22 +1,35 @@
-# view.py
-from PyQt5.QtWidgets import QMainWindow, QLabel
+import sys
+from PyQt5.QtWidgets import QMainWindow, QLabel, QPushButton, QVBoxLayout, QWidget
 
-class View(QMainWindow):
+class FlightTrackingView(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.label = QLabel("Datos:", self)
-        self.label.setGeometry(10, 10, 150, 30)
-    
-    def update_label(self, data):
-        self.label.setText(f"Datos: {data}")
 
+        # Initialize the layout
+        self.layout = QVBoxLayout()
 
-# presenter.py
-class Presenter:
-    def __init__(self, model, view):
-        self.model = model
-        self.view = view
-        self.connect_signals()
+        # Initialize the map label
+        self.map_label = QLabel()
+        self.layout.addWidget(self.map_label)
 
-    def connect_signals(self):
-        self.view.update_label(self.model.get_data())
+        # Initialize the update button
+        self.update_button = QPushButton("Update Map")
+        self.update_button.clicked.connect(self.update_map)
+        self.layout.addWidget(self.update_button)
+
+        # Initialize the central widget
+        self.central_widget = QWidget()
+        self.central_widget.setLayout(self.layout)
+        self.setCentralWidget(self.central_widget)
+
+    def update_map(self):
+        # Call the presenter's update_map method
+        self.presenter.update_map()
+
+    def set_map_image(self, image):
+        # Set the map label's pixmap
+        self.map_label.setPixmap(image)
+
+    def set_presenter(self, presenter):
+        # Set the presenter
+        self.presenter = presenter
