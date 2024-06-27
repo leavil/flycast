@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_860cb2813a59612f626a43879410d376 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_860cb2813a59612f626a43879410d376" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_860cb2813a59612f626a43879410d376 = L.map(
+                "map_860cb2813a59612f626a43879410d376",
+                {
+                    center: [40.4637, -3.7492],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_14fd6acae7ecf0db7d3e67ea98c1151a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_14fd6acae7ecf0db7d3e67ea98c1151a.addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+            var marker_d35e4492b0f0484d310b6abffdf7c2cb = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_7829b55543924d3177c14dc23c4ee75e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d87d6e04158b4614d670ba0c1953db49 = $(`<div id="html_d87d6e04158b4614d670ba0c1953db49" style="width: 100.0%; height: 100.0%;">Date: 2024-06-27<br>Temperature: 26.6°C<br>Description: Partly cloudy throughout the day with rain in the morning and afternoon.</div>`)[0];
+                popup_7829b55543924d3177c14dc23c4ee75e.setContent(html_d87d6e04158b4614d670ba0c1953db49);
+            
+        
+
+        marker_d35e4492b0f0484d310b6abffdf7c2cb.bindPopup(popup_7829b55543924d3177c14dc23c4ee75e)
+        ;
+
+        
+    
+    
+            var marker_8380e40c4ff91c849ecb8d2d14e67bdb = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_24043ac713223c59c941008e3b4c52dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_028e5740f3aefe1446e236bdb479af4c = $(`<div id="html_028e5740f3aefe1446e236bdb479af4c" style="width: 100.0%; height: 100.0%;">Date: 2024-06-28<br>Temperature: 23.2°C<br>Description: Partly cloudy throughout the day with late afternoon rain.</div>`)[0];
+                popup_24043ac713223c59c941008e3b4c52dc.setContent(html_028e5740f3aefe1446e236bdb479af4c);
+            
+        
+
+        marker_8380e40c4ff91c849ecb8d2d14e67bdb.bindPopup(popup_24043ac713223c59c941008e3b4c52dc)
+        ;
+
+        
+    
+    
+            var marker_235eb2635594e0bd96f7004f6a7775d0 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_98c7f8c662e96274b290062c3bdf5901 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf03681ca31b77323f297bbac81810b5 = $(`<div id="html_cf03681ca31b77323f297bbac81810b5" style="width: 100.0%; height: 100.0%;">Date: 2024-06-29<br>Temperature: 19.7°C<br>Description: Partly cloudy throughout the day with a chance of rain.</div>`)[0];
+                popup_98c7f8c662e96274b290062c3bdf5901.setContent(html_cf03681ca31b77323f297bbac81810b5);
+            
+        
+
+        marker_235eb2635594e0bd96f7004f6a7775d0.bindPopup(popup_98c7f8c662e96274b290062c3bdf5901)
+        ;
+
+        
+    
+    
+            var marker_d3fa975a6d7d6fa9c21fbcecfafa739b = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_e9c8b4b211f7e552abc45f0e271fd018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82ad185ff82d2f6f30ecb685ae403de8 = $(`<div id="html_82ad185ff82d2f6f30ecb685ae403de8" style="width: 100.0%; height: 100.0%;">Date: 2024-06-30<br>Temperature: 21.4°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_e9c8b4b211f7e552abc45f0e271fd018.setContent(html_82ad185ff82d2f6f30ecb685ae403de8);
+            
+        
+
+        marker_d3fa975a6d7d6fa9c21fbcecfafa739b.bindPopup(popup_e9c8b4b211f7e552abc45f0e271fd018)
+        ;
+
+        
+    
+    
+            var marker_37e0f3f949da265c38d5219e17a51f05 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_012a02e07442800e345461c5d7d0b4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cdca93e0f4b33902dce73ee4f50e4f3 = $(`<div id="html_8cdca93e0f4b33902dce73ee4f50e4f3" style="width: 100.0%; height: 100.0%;">Date: 2024-07-01<br>Temperature: 23.2°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_012a02e07442800e345461c5d7d0b4f1.setContent(html_8cdca93e0f4b33902dce73ee4f50e4f3);
+            
+        
+
+        marker_37e0f3f949da265c38d5219e17a51f05.bindPopup(popup_012a02e07442800e345461c5d7d0b4f1)
+        ;
+
+        
+    
+    
+            var marker_40e0bb1244ad6e6ce1dad54b2ff5b064 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_603cc61e0af458753fa648d490ab1703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e2aa4c5d09217deca2f2c7b235f7c0e = $(`<div id="html_7e2aa4c5d09217deca2f2c7b235f7c0e" style="width: 100.0%; height: 100.0%;">Date: 2024-07-02<br>Temperature: 26.5°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_603cc61e0af458753fa648d490ab1703.setContent(html_7e2aa4c5d09217deca2f2c7b235f7c0e);
+            
+        
+
+        marker_40e0bb1244ad6e6ce1dad54b2ff5b064.bindPopup(popup_603cc61e0af458753fa648d490ab1703)
+        ;
+
+        
+    
+    
+            var marker_0579904243b311d9c3db3aeea678dfe7 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_ba6d4f64ba300f49394169bf69e09180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6097fc98c9f58d5b2de24d7bf8be630e = $(`<div id="html_6097fc98c9f58d5b2de24d7bf8be630e" style="width: 100.0%; height: 100.0%;">Date: 2024-07-03<br>Temperature: 28.5°C<br>Description: Clear conditions throughout the day.</div>`)[0];
+                popup_ba6d4f64ba300f49394169bf69e09180.setContent(html_6097fc98c9f58d5b2de24d7bf8be630e);
+            
+        
+
+        marker_0579904243b311d9c3db3aeea678dfe7.bindPopup(popup_ba6d4f64ba300f49394169bf69e09180)
+        ;
+
+        
+    
+    
+            var marker_c5662f0a193dc48a259e44a9d5995550 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_e86d86c7cb88b2ac06cd77948741377f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbd8b4c689b4c0f5ed1ee04c46d7126a = $(`<div id="html_bbd8b4c689b4c0f5ed1ee04c46d7126a" style="width: 100.0%; height: 100.0%;">Date: 2024-07-04<br>Temperature: 29.4°C<br>Description: Clear conditions throughout the day.</div>`)[0];
+                popup_e86d86c7cb88b2ac06cd77948741377f.setContent(html_bbd8b4c689b4c0f5ed1ee04c46d7126a);
+            
+        
+
+        marker_c5662f0a193dc48a259e44a9d5995550.bindPopup(popup_e86d86c7cb88b2ac06cd77948741377f)
+        ;
+
+        
+    
+    
+            var marker_7d6428736957cd4101d10978df36218d = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_e610a57a7d77195cb6420737bd625521 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b0a2ad0c055a927e54260ff90de0851 = $(`<div id="html_2b0a2ad0c055a927e54260ff90de0851" style="width: 100.0%; height: 100.0%;">Date: 2024-07-05<br>Temperature: 30.3°C<br>Description: Clear conditions throughout the day.</div>`)[0];
+                popup_e610a57a7d77195cb6420737bd625521.setContent(html_2b0a2ad0c055a927e54260ff90de0851);
+            
+        
+
+        marker_7d6428736957cd4101d10978df36218d.bindPopup(popup_e610a57a7d77195cb6420737bd625521)
+        ;
+
+        
+    
+    
+            var marker_47977bd9cfc987fe95caa7f86bde6682 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_5dbd55e05c106f540ba98933a6aa664f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3af420658ac5ec766ee5d8a6f79453a9 = $(`<div id="html_3af420658ac5ec766ee5d8a6f79453a9" style="width: 100.0%; height: 100.0%;">Date: 2024-07-06<br>Temperature: 26.1°C<br>Description: Clear conditions throughout the day.</div>`)[0];
+                popup_5dbd55e05c106f540ba98933a6aa664f.setContent(html_3af420658ac5ec766ee5d8a6f79453a9);
+            
+        
+
+        marker_47977bd9cfc987fe95caa7f86bde6682.bindPopup(popup_5dbd55e05c106f540ba98933a6aa664f)
+        ;
+
+        
+    
+    
+            var marker_74e4a19feb18d4f31c2794406e2db99c = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_a0f899638174cab70ccf5686d044e4b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e75b9f51929b6be25353b3e93a44eaf = $(`<div id="html_0e75b9f51929b6be25353b3e93a44eaf" style="width: 100.0%; height: 100.0%;">Date: 2024-07-07<br>Temperature: 25.2°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_a0f899638174cab70ccf5686d044e4b5.setContent(html_0e75b9f51929b6be25353b3e93a44eaf);
+            
+        
+
+        marker_74e4a19feb18d4f31c2794406e2db99c.bindPopup(popup_a0f899638174cab70ccf5686d044e4b5)
+        ;
+
+        
+    
+    
+            var marker_8f78526ae049e16407e58020e014ac60 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_79a8a626b5a7cf8253d82de3b47fcb0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94c5140bb52c00e0b9f5201c34490e07 = $(`<div id="html_94c5140bb52c00e0b9f5201c34490e07" style="width: 100.0%; height: 100.0%;">Date: 2024-07-08<br>Temperature: 26.4°C<br>Description: Clear conditions throughout the day.</div>`)[0];
+                popup_79a8a626b5a7cf8253d82de3b47fcb0b.setContent(html_94c5140bb52c00e0b9f5201c34490e07);
+            
+        
+
+        marker_8f78526ae049e16407e58020e014ac60.bindPopup(popup_79a8a626b5a7cf8253d82de3b47fcb0b)
+        ;
+
+        
+    
+    
+            var marker_44d077130459e4a709e623f3017fb1bf = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_cfa0edbd6b601171b5ec595d8afd168f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e91a9be59ac570e967653171de7ec52 = $(`<div id="html_7e91a9be59ac570e967653171de7ec52" style="width: 100.0%; height: 100.0%;">Date: 2024-07-09<br>Temperature: 26.2°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_cfa0edbd6b601171b5ec595d8afd168f.setContent(html_7e91a9be59ac570e967653171de7ec52);
+            
+        
+
+        marker_44d077130459e4a709e623f3017fb1bf.bindPopup(popup_cfa0edbd6b601171b5ec595d8afd168f)
+        ;
+
+        
+    
+    
+            var marker_b060eedd11888fa03db6e6e99f346e63 = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_90ea212e3e38610b571d87eeb443df72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d887db0bcbf0272dc50ff35bede593c = $(`<div id="html_7d887db0bcbf0272dc50ff35bede593c" style="width: 100.0%; height: 100.0%;">Date: 2024-07-10<br>Temperature: 28.5°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_90ea212e3e38610b571d87eeb443df72.setContent(html_7d887db0bcbf0272dc50ff35bede593c);
+            
+        
+
+        marker_b060eedd11888fa03db6e6e99f346e63.bindPopup(popup_90ea212e3e38610b571d87eeb443df72)
+        ;
+
+        
+    
+    
+            var marker_eb258fdaf7e4e1026f995486ea919cbb = L.marker(
+                [40.4165, -3.70256],
+                {}
+            ).addTo(map_860cb2813a59612f626a43879410d376);
+        
+    
+        var popup_b01084da5cefd43f70889c2d19f8a514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43413a4484fae3ad5b6fbf78f095babd = $(`<div id="html_43413a4484fae3ad5b6fbf78f095babd" style="width: 100.0%; height: 100.0%;">Date: 2024-07-11<br>Temperature: 29.8°C<br>Description: Partly cloudy throughout the day.</div>`)[0];
+                popup_b01084da5cefd43f70889c2d19f8a514.setContent(html_43413a4484fae3ad5b6fbf78f095babd);
+            
+        
+
+        marker_eb258fdaf7e4e1026f995486ea919cbb.bindPopup(popup_b01084da5cefd43f70889c2d19f8a514)
+        ;
+
+        
+    
+</script>
+</html>

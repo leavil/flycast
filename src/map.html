@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_38d0ad968cb7329bedf198778048b840 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_38d0ad968cb7329bedf198778048b840" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_38d0ad968cb7329bedf198778048b840 = L.map(
+                "map_38d0ad968cb7329bedf198778048b840",
+                {
+                    center: [40.73061, -73.935242],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9016e89bb60fe437864f7b6b960ed9d7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9016e89bb60fe437864f7b6b960ed9d7.addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_e2363a5f5ef6c15148ad27ff0b484259 = L.marker(
+                [14.5915, -90.4926],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_792b9eeca441a2175b1ea532c475aae8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e2363a5f5ef6c15148ad27ff0b484259.setIcon(icon_792b9eeca441a2175b1ea532c475aae8);
+        
+    
+        var popup_931de0467301ac0557cfd838690c3a53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_077b6759983c418c5f721bd2ba6876b8 = $(`<div id="html_077b6759983c418c5f721bd2ba6876b8" style="width: 100.0%; height: 100.0%;">ID: N2069W  <br>Origen: United States<br>Destino: 1719505123<br>Latitud: 14.5915<br>Longitud: -90.4926<br>Velocidad: 76.94 m/s<br>Altitud: 2004.06 m</div>`)[0];
+                popup_931de0467301ac0557cfd838690c3a53.setContent(html_077b6759983c418c5f721bd2ba6876b8);
+            
+        
+
+        marker_e2363a5f5ef6c15148ad27ff0b484259.bindPopup(popup_931de0467301ac0557cfd838690c3a53)
+        ;
+
+        
+    
+    
+            var poly_line_a8314108073c1e0de11aff6f0ecbf9f5 = L.polyline(
+                [[0.0, 0.0], [14.5915, -90.4926], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_19a4e50905762166cd067c1aefb81f2e = L.marker(
+                [42.6661, -83.3878],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_495f2c8f49fde781488d310e42f9ea58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_19a4e50905762166cd067c1aefb81f2e.setIcon(icon_495f2c8f49fde781488d310e42f9ea58);
+        
+    
+        var popup_83167ccadc4b4fce936a43f595647536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad3ecf04196aebda13c39cb0f52d4dde = $(`<div id="html_ad3ecf04196aebda13c39cb0f52d4dde" style="width: 100.0%; height: 100.0%;">ID: N334GV  <br>Origen: United States<br>Destino: 1719505115<br>Latitud: 42.6661<br>Longitud: -83.3878<br>Velocidad: 63.35 m/s<br>Altitud: 388.62 m</div>`)[0];
+                popup_83167ccadc4b4fce936a43f595647536.setContent(html_ad3ecf04196aebda13c39cb0f52d4dde);
+            
+        
+
+        marker_19a4e50905762166cd067c1aefb81f2e.bindPopup(popup_83167ccadc4b4fce936a43f595647536)
+        ;
+
+        
+    
+    
+            var poly_line_a9c9879f2655c23dcda138b38cb64f5e = L.polyline(
+                [[0.0, 0.0], [42.6661, -83.3878], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_03541894e72e42a67fc1a63bd2e8e3a5 = L.marker(
+                [40.6821, -112.2681],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_02d622efbc051cae3a60cdd9d9555069 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_03541894e72e42a67fc1a63bd2e8e3a5.setIcon(icon_02d622efbc051cae3a60cdd9d9555069);
+        
+    
+        var popup_787ae2f3c599d0555a72e3cac3d9ed87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90d6b08b0b4124c13abb2b3e8c070cee = $(`<div id="html_90d6b08b0b4124c13abb2b3e8c070cee" style="width: 100.0%; height: 100.0%;">ID: N387AF  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 40.6821<br>Longitud: -112.2681<br>Velocidad: 52.05 m/s<br>Altitud: 2179.32 m</div>`)[0];
+                popup_787ae2f3c599d0555a72e3cac3d9ed87.setContent(html_90d6b08b0b4124c13abb2b3e8c070cee);
+            
+        
+
+        marker_03541894e72e42a67fc1a63bd2e8e3a5.bindPopup(popup_787ae2f3c599d0555a72e3cac3d9ed87)
+        ;
+
+        
+    
+    
+            var poly_line_bc21c4796a3d352f8f57dc9af46a8143 = L.polyline(
+                [[0.0, 0.0], [40.6821, -112.2681], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_27143cab1eff61da3d66a60389f71c97 = L.marker(
+                [40.916, -80.4152],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_600c3f9fcd1cbd58eb5e3f180f54c217 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_27143cab1eff61da3d66a60389f71c97.setIcon(icon_600c3f9fcd1cbd58eb5e3f180f54c217);
+        
+    
+        var popup_11bf8acc2e0dd2a9c3950db94e641312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a14d55a2dad9c4b40d54ab3a7f58b9a5 = $(`<div id="html_a14d55a2dad9c4b40d54ab3a7f58b9a5" style="width: 100.0%; height: 100.0%;">ID: N411FP  <br>Origen: United States<br>Destino: 1719505130<br>Latitud: 40.916<br>Longitud: -80.4152<br>Velocidad: 60.36 m/s<br>Altitud: 2286 m</div>`)[0];
+                popup_11bf8acc2e0dd2a9c3950db94e641312.setContent(html_a14d55a2dad9c4b40d54ab3a7f58b9a5);
+            
+        
+
+        marker_27143cab1eff61da3d66a60389f71c97.bindPopup(popup_11bf8acc2e0dd2a9c3950db94e641312)
+        ;
+
+        
+    
+    
+            var poly_line_51c5596a4ea97de16dcdf63ce8dbab9f = L.polyline(
+                [[0.0, 0.0], [40.916, -80.4152], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_6dbc2f92a46d7a57e1d2267c1bc7ce4b = L.marker(
+                [39.8413, -93.9603],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_a533912ef7aac24373da618e134967fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6dbc2f92a46d7a57e1d2267c1bc7ce4b.setIcon(icon_a533912ef7aac24373da618e134967fe);
+        
+    
+        var popup_40fc31d9763b7528079ac431f44b94b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1af1281ece599a4dbada54d3f1d44411 = $(`<div id="html_1af1281ece599a4dbada54d3f1d44411" style="width: 100.0%; height: 100.0%;">ID: AAL1021 <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 39.8413<br>Longitud: -93.9603<br>Velocidad: 256.32 m/s<br>Altitud: 11902.44 m</div>`)[0];
+                popup_40fc31d9763b7528079ac431f44b94b1.setContent(html_1af1281ece599a4dbada54d3f1d44411);
+            
+        
+
+        marker_6dbc2f92a46d7a57e1d2267c1bc7ce4b.bindPopup(popup_40fc31d9763b7528079ac431f44b94b1)
+        ;
+
+        
+    
+    
+            var poly_line_e9d700f298c21fd9eb9ab9839764a99c = L.polyline(
+                [[0.0, 0.0], [39.8413, -93.9603], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_86adad2f05da5a63cb68372217b15f27 = L.marker(
+                [52.8059, -113.1216],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_c52e5138e9ebebad032d13546af1b790 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_86adad2f05da5a63cb68372217b15f27.setIcon(icon_c52e5138e9ebebad032d13546af1b790);
+        
+    
+        var popup_c89fd7b72f485f7b0117307536ef38f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4afa735455b990b416951d76645f0c71 = $(`<div id="html_4afa735455b990b416951d76645f0c71" style="width: 100.0%; height: 100.0%;">ID: JZA420  <br>Origen: Canada<br>Destino: 1719505131<br>Latitud: 52.8059<br>Longitud: -113.1216<br>Velocidad: 172.56 m/s<br>Altitud: 7734.3 m</div>`)[0];
+                popup_c89fd7b72f485f7b0117307536ef38f2.setContent(html_4afa735455b990b416951d76645f0c71);
+            
+        
+
+        marker_86adad2f05da5a63cb68372217b15f27.bindPopup(popup_c89fd7b72f485f7b0117307536ef38f2)
+        ;
+
+        
+    
+    
+            var poly_line_d46338efeee81e144f46c5bf84d89bdf = L.polyline(
+                [[0.0, 0.0], [52.8059, -113.1216], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_fa35cf2a8f18d62a82dfc3fd40cae74e = L.marker(
+                [40.7016, -74.03],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_64a6e5011026c411a70d069e86669e8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fa35cf2a8f18d62a82dfc3fd40cae74e.setIcon(icon_64a6e5011026c411a70d069e86669e8f);
+        
+    
+        var popup_e2c03e9ea74e9ed97d66c53aa7b11be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a2a803d7535e7f5e815d85e76c79511 = $(`<div id="html_8a2a803d7535e7f5e815d85e76c79511" style="width: 100.0%; height: 100.0%;">ID: N401TD  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 40.7016<br>Longitud: -74.03<br>Velocidad: 55.07 m/s<br>Altitud: 213.36 m</div>`)[0];
+                popup_e2c03e9ea74e9ed97d66c53aa7b11be2.setContent(html_8a2a803d7535e7f5e815d85e76c79511);
+            
+        
+
+        marker_fa35cf2a8f18d62a82dfc3fd40cae74e.bindPopup(popup_e2c03e9ea74e9ed97d66c53aa7b11be2)
+        ;
+
+        
+    
+    
+            var poly_line_cd639e972c08c81f43c842efcf003e89 = L.polyline(
+                [[0.0, 0.0], [40.7016, -74.03], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_cb82bde04eac707d03829017ea90b40b = L.marker(
+                [37.276, -122.2618],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_ce43ab362a6764c07d4524ba2d8f0c38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cb82bde04eac707d03829017ea90b40b.setIcon(icon_ce43ab362a6764c07d4524ba2d8f0c38);
+        
+    
+        var popup_52828c64bfba44b33bd631398aa12ea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b15d63f9e89f48a3be5823a324dd17 = $(`<div id="html_03b15d63f9e89f48a3be5823a324dd17" style="width: 100.0%; height: 100.0%;">ID: N454MK  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 37.276<br>Longitud: -122.2618<br>Velocidad: 66.37 m/s<br>Altitud: 1379.22 m</div>`)[0];
+                popup_52828c64bfba44b33bd631398aa12ea5.setContent(html_03b15d63f9e89f48a3be5823a324dd17);
+            
+        
+
+        marker_cb82bde04eac707d03829017ea90b40b.bindPopup(popup_52828c64bfba44b33bd631398aa12ea5)
+        ;
+
+        
+    
+    
+            var poly_line_8c100e86844de493c522f5f024820836 = L.polyline(
+                [[0.0, 0.0], [37.276, -122.2618], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_e4b34a8ca8183499090a0a8a09cac27d = L.marker(
+                [41.7864, -87.7608],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_41c3e8a7d30dba10420932198a13c2a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e4b34a8ca8183499090a0a8a09cac27d.setIcon(icon_41c3e8a7d30dba10420932198a13c2a4);
+        
+    
+        var popup_544ac96e5a4e8eaa8ef77887e336a01e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e84f6ec279ccb7e45a4eebd4b356889 = $(`<div id="html_9e84f6ec279ccb7e45a4eebd4b356889" style="width: 100.0%; height: 100.0%;">ID: EJA309  <br>Origen: United States<br>Destino: 1719505130<br>Latitud: 41.7864<br>Longitud: -87.7608<br>Velocidad: 0 m/s<br>Altitud: None m</div>`)[0];
+                popup_544ac96e5a4e8eaa8ef77887e336a01e.setContent(html_9e84f6ec279ccb7e45a4eebd4b356889);
+            
+        
+
+        marker_e4b34a8ca8183499090a0a8a09cac27d.bindPopup(popup_544ac96e5a4e8eaa8ef77887e336a01e)
+        ;
+
+        
+    
+    
+            var poly_line_3b0d5811209fe0a18ac280480b5feae6 = L.polyline(
+                [[0.0, 0.0], [41.7864, -87.7608], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_9c87a7a7cdcb17094dc81818184c8bca = L.marker(
+                [56.2406, -6.0469],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_27e8bf83c65c4ad968c8425b9f0d3d71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9c87a7a7cdcb17094dc81818184c8bca.setIcon(icon_27e8bf83c65c4ad968c8425b9f0d3d71);
+        
+    
+        var popup_a101b1028e72ba92d402d6dd8bdb2da0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67daf30bb633db193fa23a11cd88cc4c = $(`<div id="html_67daf30bb633db193fa23a11cd88cc4c" style="width: 100.0%; height: 100.0%;">ID: N156WJ  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 56.2406<br>Longitud: -6.0469<br>Velocidad: 235.24 m/s<br>Altitud: 7901.94 m</div>`)[0];
+                popup_a101b1028e72ba92d402d6dd8bdb2da0.setContent(html_67daf30bb633db193fa23a11cd88cc4c);
+            
+        
+
+        marker_9c87a7a7cdcb17094dc81818184c8bca.bindPopup(popup_a101b1028e72ba92d402d6dd8bdb2da0)
+        ;
+
+        
+    
+    
+            var poly_line_c6adff27bd33fac6b4c756f95c07b049 = L.polyline(
+                [[0.0, 0.0], [56.2406, -6.0469], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_dd9e8f9d6cab368fe0ed7eb4f8c0b0ab = L.marker(
+                [38.2849, -121.4376],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_468b058c79bc4f0f4b1f935ae08f8432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dd9e8f9d6cab368fe0ed7eb4f8c0b0ab.setIcon(icon_468b058c79bc4f0f4b1f935ae08f8432);
+        
+    
+        var popup_a0df5a0180fc3c99e36d952da762bc6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c35537c77facbf601dfc239f97c3c20d = $(`<div id="html_c35537c77facbf601dfc239f97c3c20d" style="width: 100.0%; height: 100.0%;">ID: N759NG  <br>Origen: United States<br>Destino: 1719505129<br>Latitud: 38.2849<br>Longitud: -121.4376<br>Velocidad: 42.98 m/s<br>Altitud: 190.5 m</div>`)[0];
+                popup_a0df5a0180fc3c99e36d952da762bc6b.setContent(html_c35537c77facbf601dfc239f97c3c20d);
+            
+        
+
+        marker_dd9e8f9d6cab368fe0ed7eb4f8c0b0ab.bindPopup(popup_a0df5a0180fc3c99e36d952da762bc6b)
+        ;
+
+        
+    
+    
+            var poly_line_5f8d5b3fbba6152befaaedd5ed024fd4 = L.polyline(
+                [[0.0, 0.0], [38.2849, -121.4376], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_c6dee588e18942f5c55e75a00b1eb6b4 = L.marker(
+                [39.3398, -122.6246],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_b9cd3b006e6104d7f2121112ce99e2cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c6dee588e18942f5c55e75a00b1eb6b4.setIcon(icon_b9cd3b006e6104d7f2121112ce99e2cf);
+        
+    
+        var popup_08ef712611f2e8f622b673d0568da9ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06f6beda391d3d6ed7dbbd1618998505 = $(`<div id="html_06f6beda391d3d6ed7dbbd1618998505" style="width: 100.0%; height: 100.0%;">ID: N657PP  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 39.3398<br>Longitud: -122.6246<br>Velocidad: 237.02 m/s<br>Altitud: 12938.76 m</div>`)[0];
+                popup_08ef712611f2e8f622b673d0568da9ba.setContent(html_06f6beda391d3d6ed7dbbd1618998505);
+            
+        
+
+        marker_c6dee588e18942f5c55e75a00b1eb6b4.bindPopup(popup_08ef712611f2e8f622b673d0568da9ba)
+        ;
+
+        
+    
+    
+            var poly_line_8d0502ad497a375dcde21c3071c95b68 = L.polyline(
+                [[0.0, 0.0], [39.3398, -122.6246], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_d5391b149e9612efc6479fff0f3ca708 = L.marker(
+                [26.8233, -80.6737],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_dff3d14dbbba014701ef1a8f364330f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d5391b149e9612efc6479fff0f3ca708.setIcon(icon_dff3d14dbbba014701ef1a8f364330f6);
+        
+    
+        var popup_2e919fc483ee1917825614e4da95fc3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5781e3e22468c9cf3de525295238221 = $(`<div id="html_a5781e3e22468c9cf3de525295238221" style="width: 100.0%; height: 100.0%;">ID: AJT199  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 26.8233<br>Longitud: -80.6737<br>Velocidad: 233.97 m/s<br>Altitud: 8145.78 m</div>`)[0];
+                popup_2e919fc483ee1917825614e4da95fc3a.setContent(html_a5781e3e22468c9cf3de525295238221);
+            
+        
+
+        marker_d5391b149e9612efc6479fff0f3ca708.bindPopup(popup_2e919fc483ee1917825614e4da95fc3a)
+        ;
+
+        
+    
+    
+            var poly_line_b506d09f0cd5cc010add322a6c53dd95 = L.polyline(
+                [[0.0, 0.0], [26.8233, -80.6737], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_09afb6f464f22dbb94d8fa2af979116c = L.marker(
+                [38.3131, -95.98],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_75da6f52314df7bb4ad8bbba7630a5a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_09afb6f464f22dbb94d8fa2af979116c.setIcon(icon_75da6f52314df7bb4ad8bbba7630a5a0);
+        
+    
+        var popup_1d57324a6c45b03589c6b6a9d7e72ed8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0f90ad437fa777d49ddd7addf54e92 = $(`<div id="html_ad0f90ad437fa777d49ddd7addf54e92" style="width: 100.0%; height: 100.0%;">ID: N4872K  <br>Origen: United States<br>Destino: 1719505126<br>Latitud: 38.3131<br>Longitud: -95.98<br>Velocidad: 90.96 m/s<br>Altitud: 4137.66 m</div>`)[0];
+                popup_1d57324a6c45b03589c6b6a9d7e72ed8.setContent(html_ad0f90ad437fa777d49ddd7addf54e92);
+            
+        
+
+        marker_09afb6f464f22dbb94d8fa2af979116c.bindPopup(popup_1d57324a6c45b03589c6b6a9d7e72ed8)
+        ;
+
+        
+    
+    
+            var poly_line_9528f2e88d84a94ffae7f6f8c2862956 = L.polyline(
+                [[0.0, 0.0], [38.3131, -95.98], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_c4ec7eb4b8ec28ef3e97a34beff667c5 = L.marker(
+                [40.4315, -92.093],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_9bf9a022b236a7a9423c4fc91b655a59 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c4ec7eb4b8ec28ef3e97a34beff667c5.setIcon(icon_9bf9a022b236a7a9423c4fc91b655a59);
+        
+    
+        var popup_628d9fdb168243c3a93c541d203d9912 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3351e84a35337299a898b7873004b6ce = $(`<div id="html_3351e84a35337299a898b7873004b6ce" style="width: 100.0%; height: 100.0%;">ID: UPS2973 <br>Origen: United States<br>Destino: 1719505130<br>Latitud: 40.4315<br>Longitud: -92.093<br>Velocidad: 274.22 m/s<br>Altitud: 12489.18 m</div>`)[0];
+                popup_628d9fdb168243c3a93c541d203d9912.setContent(html_3351e84a35337299a898b7873004b6ce);
+            
+        
+
+        marker_c4ec7eb4b8ec28ef3e97a34beff667c5.bindPopup(popup_628d9fdb168243c3a93c541d203d9912)
+        ;
+
+        
+    
+    
+            var poly_line_7a235df0fa8da565bc97103b17d9c44d = L.polyline(
+                [[0.0, 0.0], [40.4315, -92.093], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_6892e43790352d17fa2aecb4712a0819 = L.marker(
+                [40.713, -83.9157],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_a3663a6d71101677f66d89e46eae37fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6892e43790352d17fa2aecb4712a0819.setIcon(icon_a3663a6d71101677f66d89e46eae37fd);
+        
+    
+        var popup_b007e197ba1f4829f6871c1590aad2d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ba29c5b58559655290b16f3a543bc62 = $(`<div id="html_2ba29c5b58559655290b16f3a543bc62" style="width: 100.0%; height: 100.0%;">ID: AAL2429 <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 40.713<br>Longitud: -83.9157<br>Velocidad: 251.27 m/s<br>Altitud: 9913.62 m</div>`)[0];
+                popup_b007e197ba1f4829f6871c1590aad2d7.setContent(html_2ba29c5b58559655290b16f3a543bc62);
+            
+        
+
+        marker_6892e43790352d17fa2aecb4712a0819.bindPopup(popup_b007e197ba1f4829f6871c1590aad2d7)
+        ;
+
+        
+    
+    
+            var poly_line_8a589d17b4f80ba556284342112e7848 = L.polyline(
+                [[0.0, 0.0], [40.713, -83.9157], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_eda16aba9d5ac7e393697e83ed2a3866 = L.marker(
+                [-25.8805, 29.0476],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_7e9f59b9e9c2e7e957312ee7bc069008 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eda16aba9d5ac7e393697e83ed2a3866.setIcon(icon_7e9f59b9e9c2e7e957312ee7bc069008);
+        
+    
+        var popup_dc0569aafc3c15d9df2b74701cad7ae6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4825a91b74faaf6b632626f51716c703 = $(`<div id="html_4825a91b74faaf6b632626f51716c703" style="width: 100.0%; height: 100.0%;">ID: SAA191  <br>Origen: South Africa<br>Destino: 1719505131<br>Latitud: -25.8805<br>Longitud: 29.0476<br>Velocidad: 177.62 m/s<br>Altitud: 7917.18 m</div>`)[0];
+                popup_dc0569aafc3c15d9df2b74701cad7ae6.setContent(html_4825a91b74faaf6b632626f51716c703);
+            
+        
+
+        marker_eda16aba9d5ac7e393697e83ed2a3866.bindPopup(popup_dc0569aafc3c15d9df2b74701cad7ae6)
+        ;
+
+        
+    
+    
+            var poly_line_b4b91ec5867e48ae1f86c40a89c9cbda = L.polyline(
+                [[0.0, 0.0], [-25.8805, 29.0476], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_aebda64efa463a0bdc6b0151baf3b9f5 = L.marker(
+                [26.3116, 74.6435],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_a3e7c41725efb2bfcfff04bebfdf9ee1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aebda64efa463a0bdc6b0151baf3b9f5.setIcon(icon_a3e7c41725efb2bfcfff04bebfdf9ee1);
+        
+    
+        var popup_d523c19f561c9dce5cd3e5ddb320b4f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc67d467f1b451f0779f9cfd09686f5c = $(`<div id="html_cc67d467f1b451f0779f9cfd09686f5c" style="width: 100.0%; height: 100.0%;">ID: VTI558  <br>Origen: India<br>Destino: 1719505096<br>Latitud: 26.3116<br>Longitud: 74.6435<br>Velocidad: 232.02 m/s<br>Altitud: 12108.18 m</div>`)[0];
+                popup_d523c19f561c9dce5cd3e5ddb320b4f2.setContent(html_cc67d467f1b451f0779f9cfd09686f5c);
+            
+        
+
+        marker_aebda64efa463a0bdc6b0151baf3b9f5.bindPopup(popup_d523c19f561c9dce5cd3e5ddb320b4f2)
+        ;
+
+        
+    
+    
+            var poly_line_c5cf181a240d74eee1760cf1d84657d7 = L.polyline(
+                [[0.0, 0.0], [26.3116, 74.6435], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_4e20d672a926cf87f25d6f863ff31873 = L.marker(
+                [30.1486, -81.4139],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_186d450a883d3cef6ff024d23d4a638d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4e20d672a926cf87f25d6f863ff31873.setIcon(icon_186d450a883d3cef6ff024d23d4a638d);
+        
+    
+        var popup_0e6bb21752cf6e2ab628d660a1f34125 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fc1389c9fb7e0caf13a494e0e8c6af7 = $(`<div id="html_3fc1389c9fb7e0caf13a494e0e8c6af7" style="width: 100.0%; height: 100.0%;">ID: N881RE  <br>Origen: United States<br>Destino: 1719505126<br>Latitud: 30.1486<br>Longitud: -81.4139<br>Velocidad: 202.69 m/s<br>Altitud: 14401.8 m</div>`)[0];
+                popup_0e6bb21752cf6e2ab628d660a1f34125.setContent(html_3fc1389c9fb7e0caf13a494e0e8c6af7);
+            
+        
+
+        marker_4e20d672a926cf87f25d6f863ff31873.bindPopup(popup_0e6bb21752cf6e2ab628d660a1f34125)
+        ;
+
+        
+    
+    
+            var poly_line_c459b4683dd5156942f871682fdb226e = L.polyline(
+                [[0.0, 0.0], [30.1486, -81.4139], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_8476d869e95996023a716d0b60629d72 = L.marker(
+                [34.361, -83.5463],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_5e65de8c25c77436fceebe5b3b94f70c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_8476d869e95996023a716d0b60629d72.setIcon(icon_5e65de8c25c77436fceebe5b3b94f70c);
+        
+    
+        var popup_ebfdecf938b3911843fb32fb3f660846 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2c6d89f1e0e03bae16585a9c13ec186 = $(`<div id="html_c2c6d89f1e0e03bae16585a9c13ec186" style="width: 100.0%; height: 100.0%;">ID: DAL973  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 34.361<br>Longitud: -83.5463<br>Velocidad: 222.7 m/s<br>Altitud: 5341.62 m</div>`)[0];
+                popup_ebfdecf938b3911843fb32fb3f660846.setContent(html_c2c6d89f1e0e03bae16585a9c13ec186);
+            
+        
+
+        marker_8476d869e95996023a716d0b60629d72.bindPopup(popup_ebfdecf938b3911843fb32fb3f660846)
+        ;
+
+        
+    
+    
+            var poly_line_e01292ad0e1a4a02a54c0d376afa6c0f = L.polyline(
+                [[0.0, 0.0], [34.361, -83.5463], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_238b84a721ef38f78fb8f2677b240254 = L.marker(
+                [47.4576, -122.3062],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_eae49bdb69ce2119e68f624843d812c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_238b84a721ef38f78fb8f2677b240254.setIcon(icon_eae49bdb69ce2119e68f624843d812c1);
+        
+    
+        var popup_9b04e8b326406a74b12c932b6904bd1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1e3b42f978dd97c2c4d8d892c2dd002 = $(`<div id="html_d1e3b42f978dd97c2c4d8d892c2dd002" style="width: 100.0%; height: 100.0%;">ID: ASA405  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 47.4576<br>Longitud: -122.3062<br>Velocidad: 10.29 m/s<br>Altitud: None m</div>`)[0];
+                popup_9b04e8b326406a74b12c932b6904bd1a.setContent(html_d1e3b42f978dd97c2c4d8d892c2dd002);
+            
+        
+
+        marker_238b84a721ef38f78fb8f2677b240254.bindPopup(popup_9b04e8b326406a74b12c932b6904bd1a)
+        ;
+
+        
+    
+    
+            var poly_line_98589dd4e32e9d80952e25866b24a259 = L.polyline(
+                [[0.0, 0.0], [47.4576, -122.3062], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_102f17cb7c09e65d821ff4c0ea3c9208 = L.marker(
+                [42.3687, -71.0151],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_98a9ba7972878f6cf3353bc3ef2d08c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_102f17cb7c09e65d821ff4c0ea3c9208.setIcon(icon_98a9ba7972878f6cf3353bc3ef2d08c6);
+        
+    
+        var popup_8bf375febea7329303f5946cf431dd1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03defc73720a4f491b6609fe75f16a35 = $(`<div id="html_03defc73720a4f491b6609fe75f16a35" style="width: 100.0%; height: 100.0%;">ID: JBU2352 <br>Origen: United States<br>Destino: 1719505127<br>Latitud: 42.3687<br>Longitud: -71.0151<br>Velocidad: 0 m/s<br>Altitud: None m</div>`)[0];
+                popup_8bf375febea7329303f5946cf431dd1e.setContent(html_03defc73720a4f491b6609fe75f16a35);
+            
+        
+
+        marker_102f17cb7c09e65d821ff4c0ea3c9208.bindPopup(popup_8bf375febea7329303f5946cf431dd1e)
+        ;
+
+        
+    
+    
+            var poly_line_2a7a1289c7f1b869bf452b553666441c = L.polyline(
+                [[0.0, 0.0], [42.3687, -71.0151], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_fad39a29860c86f8e2d72569cd863970 = L.marker(
+                [57.4943, 24.2352],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_880077311289aacc3d9ab44b216b4ca0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fad39a29860c86f8e2d72569cd863970.setIcon(icon_880077311289aacc3d9ab44b216b4ca0);
+        
+    
+        var popup_6d996ad22ec03257ddad19c23bcd52ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a01fa36e4fd6f2d01f782cc9ef40b52f = $(`<div id="html_a01fa36e4fd6f2d01f782cc9ef40b52f" style="width: 100.0%; height: 100.0%;">ID: ESSKI   <br>Origen: Estonia<br>Destino: 1719505131<br>Latitud: 57.4943<br>Longitud: 24.2352<br>Velocidad: 89.85 m/s<br>Altitud: 5105.4 m</div>`)[0];
+                popup_6d996ad22ec03257ddad19c23bcd52ed.setContent(html_a01fa36e4fd6f2d01f782cc9ef40b52f);
+            
+        
+
+        marker_fad39a29860c86f8e2d72569cd863970.bindPopup(popup_6d996ad22ec03257ddad19c23bcd52ed)
+        ;
+
+        
+    
+    
+            var poly_line_dabecf32d039958b2efa8351c894d0fc = L.polyline(
+                [[0.0, 0.0], [57.4943, 24.2352], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_08d4006a7cf305f4fc57ac424f4ddc88 = L.marker(
+                [43.1826, -95.8095],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_7dd182427de49c79e7e35f27a50b69b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_08d4006a7cf305f4fc57ac424f4ddc88.setIcon(icon_7dd182427de49c79e7e35f27a50b69b4);
+        
+    
+        var popup_c03d5495266b67d1372221429d0c4f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ad58f0147947cb244713b558d1e8d7e = $(`<div id="html_6ad58f0147947cb244713b558d1e8d7e" style="width: 100.0%; height: 100.0%;">ID: UAL398  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 43.1826<br>Longitud: -95.8095<br>Velocidad: 213.39 m/s<br>Altitud: 10233.66 m</div>`)[0];
+                popup_c03d5495266b67d1372221429d0c4f62.setContent(html_6ad58f0147947cb244713b558d1e8d7e);
+            
+        
+
+        marker_08d4006a7cf305f4fc57ac424f4ddc88.bindPopup(popup_c03d5495266b67d1372221429d0c4f62)
+        ;
+
+        
+    
+    
+            var poly_line_31756f778bc869043ccee578de43d7b7 = L.polyline(
+                [[0.0, 0.0], [43.1826, -95.8095], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_5f545b3104166ea1a5873efdea4fee2f = L.marker(
+                [22.1287, -72.8344],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_4ad06780482afbb6ffcfb3ad31937df9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5f545b3104166ea1a5873efdea4fee2f.setIcon(icon_4ad06780482afbb6ffcfb3ad31937df9);
+        
+    
+        var popup_f65b04d1105754958bccbc2043ee8ce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05e860ef11328fed459fac74576d22ce = $(`<div id="html_05e860ef11328fed459fac74576d22ce" style="width: 100.0%; height: 100.0%;">ID: N365AF  <br>Origen: United States<br>Destino: 1719505130<br>Latitud: 22.1287<br>Longitud: -72.8344<br>Velocidad: 100.88 m/s<br>Altitud: 2781.3 m</div>`)[0];
+                popup_f65b04d1105754958bccbc2043ee8ce0.setContent(html_05e860ef11328fed459fac74576d22ce);
+            
+        
+
+        marker_5f545b3104166ea1a5873efdea4fee2f.bindPopup(popup_f65b04d1105754958bccbc2043ee8ce0)
+        ;
+
+        
+    
+    
+            var poly_line_097380b2f228bd8244b0aef20c234cc3 = L.polyline(
+                [[0.0, 0.0], [22.1287, -72.8344], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_d4d575981e0a403c9300cd8213c8b859 = L.marker(
+                [31.3574, -100.5189],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_352fb54ea943e26772c53c890a5ee187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d4d575981e0a403c9300cd8213c8b859.setIcon(icon_352fb54ea943e26772c53c890a5ee187);
+        
+    
+        var popup_ce6045a88da8a998ae759f1084460134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f20107020cf514eca817cff8c4bb433b = $(`<div id="html_f20107020cf514eca817cff8c4bb433b" style="width: 100.0%; height: 100.0%;">ID: N28AS   <br>Origen: United States<br>Destino: 1719505066<br>Latitud: 31.3574<br>Longitud: -100.5189<br>Velocidad: 48.92 m/s<br>Altitud: 899.16 m</div>`)[0];
+                popup_ce6045a88da8a998ae759f1084460134.setContent(html_f20107020cf514eca817cff8c4bb433b);
+            
+        
+
+        marker_d4d575981e0a403c9300cd8213c8b859.bindPopup(popup_ce6045a88da8a998ae759f1084460134)
+        ;
+
+        
+    
+    
+            var poly_line_bd64e2be2567f0200f3ce50d3958d5b4 = L.polyline(
+                [[0.0, 0.0], [31.3574, -100.5189], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_1ee8ca822c37d754b0e7ab5cfa5105cc = L.marker(
+                [40.4903, -102.6769],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_081790b3f7b6eede4bb7fce49a4c2e8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1ee8ca822c37d754b0e7ab5cfa5105cc.setIcon(icon_081790b3f7b6eede4bb7fce49a4c2e8c);
+        
+    
+        var popup_98e134606bb3d0dc9b6af912ff6a0ce5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dea4dff21d21e68a5ac4656007298f62 = $(`<div id="html_dea4dff21d21e68a5ac4656007298f62" style="width: 100.0%; height: 100.0%;">ID: UAL2672 <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 40.4903<br>Longitud: -102.6769<br>Velocidad: 219.18 m/s<br>Altitud: 12237.72 m</div>`)[0];
+                popup_98e134606bb3d0dc9b6af912ff6a0ce5.setContent(html_dea4dff21d21e68a5ac4656007298f62);
+            
+        
+
+        marker_1ee8ca822c37d754b0e7ab5cfa5105cc.bindPopup(popup_98e134606bb3d0dc9b6af912ff6a0ce5)
+        ;
+
+        
+    
+    
+            var poly_line_77615d5cfbbeec1cc159975c4c6871aa = L.polyline(
+                [[0.0, 0.0], [40.4903, -102.6769], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_9f1e4587a5dd6ee08dda82ba9796ac76 = L.marker(
+                [42.4885, -73.2402],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_1b97f9db2cacd73d47f01314f0f80843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9f1e4587a5dd6ee08dda82ba9796ac76.setIcon(icon_1b97f9db2cacd73d47f01314f0f80843);
+        
+    
+        var popup_e67a692b5156a539a244af5e650ad123 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45c9b877165d5cc08dfe8a984bd478f5 = $(`<div id="html_45c9b877165d5cc08dfe8a984bd478f5" style="width: 100.0%; height: 100.0%;">ID: TLK324  <br>Origen: Canada<br>Destino: 1719505131<br>Latitud: 42.4885<br>Longitud: -73.2402<br>Velocidad: 211.66 m/s<br>Altitud: 7216.14 m</div>`)[0];
+                popup_e67a692b5156a539a244af5e650ad123.setContent(html_45c9b877165d5cc08dfe8a984bd478f5);
+            
+        
+
+        marker_9f1e4587a5dd6ee08dda82ba9796ac76.bindPopup(popup_e67a692b5156a539a244af5e650ad123)
+        ;
+
+        
+    
+    
+            var poly_line_ecfe4869859e00a5e00bac3d2decc470 = L.polyline(
+                [[0.0, 0.0], [42.4885, -73.2402], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_cb8c0342ae987cdbb03c2702095cf4aa = L.marker(
+                [21.168, 85.354],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_639747e4a98d51c81f19322925334e0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cb8c0342ae987cdbb03c2702095cf4aa.setIcon(icon_639747e4a98d51c81f19322925334e0d);
+        
+    
+        var popup_a568e6d0a81c29316f2bcf8a0e039622 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a83f944245ffaa6a65b9cad009703754 = $(`<div id="html_a83f944245ffaa6a65b9cad009703754" style="width: 100.0%; height: 100.0%;">ID: IGO6774 <br>Origen: India<br>Destino: 1719505131<br>Latitud: 21.168<br>Longitud: 85.354<br>Velocidad: 219.72 m/s<br>Altitud: 12740.64 m</div>`)[0];
+                popup_a568e6d0a81c29316f2bcf8a0e039622.setContent(html_a83f944245ffaa6a65b9cad009703754);
+            
+        
+
+        marker_cb8c0342ae987cdbb03c2702095cf4aa.bindPopup(popup_a568e6d0a81c29316f2bcf8a0e039622)
+        ;
+
+        
+    
+    
+            var poly_line_175110db5a8be585593a9e53fbf7e6de = L.polyline(
+                [[0.0, 0.0], [21.168, 85.354], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_1cf1af85bf1ecd3a172c9f92b51ec77c = L.marker(
+                [13.0316, 80.2792],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_b7edfcf84810b2abdb00543208c1d84d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1cf1af85bf1ecd3a172c9f92b51ec77c.setIcon(icon_b7edfcf84810b2abdb00543208c1d84d);
+        
+    
+        var popup_e383f2bf668d12a68bfbe7cab42ee319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9ec53ea1f1339d5f75e3a34adb0d4c6 = $(`<div id="html_b9ec53ea1f1339d5f75e3a34adb0d4c6" style="width: 100.0%; height: 100.0%;">ID: IGO78EJ <br>Origen: India<br>Destino: 1719505131<br>Latitud: 13.0316<br>Longitud: 80.2792<br>Velocidad: 64.01 m/s<br>Altitud: 533.4 m</div>`)[0];
+                popup_e383f2bf668d12a68bfbe7cab42ee319.setContent(html_b9ec53ea1f1339d5f75e3a34adb0d4c6);
+            
+        
+
+        marker_1cf1af85bf1ecd3a172c9f92b51ec77c.bindPopup(popup_e383f2bf668d12a68bfbe7cab42ee319)
+        ;
+
+        
+    
+    
+            var poly_line_e6229e383c622c4d6faf09185d98f7db = L.polyline(
+                [[0.0, 0.0], [13.0316, 80.2792], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_76e1ef5c2e1abaf5e12fb90d53a36adc = L.marker(
+                [43.5489, -96.2523],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_91aba57adc990ac855fde95e89efed32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_76e1ef5c2e1abaf5e12fb90d53a36adc.setIcon(icon_91aba57adc990ac855fde95e89efed32);
+        
+    
+        var popup_937b0bf4f624711ab5b71406768f44bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df7c014aca0353ad68a06adac5e5e788 = $(`<div id="html_df7c014aca0353ad68a06adac5e5e788" style="width: 100.0%; height: 100.0%;">ID: N474X   <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 43.5489<br>Longitud: -96.2523<br>Velocidad: 206.02 m/s<br>Altitud: 14226.54 m</div>`)[0];
+                popup_937b0bf4f624711ab5b71406768f44bc.setContent(html_df7c014aca0353ad68a06adac5e5e788);
+            
+        
+
+        marker_76e1ef5c2e1abaf5e12fb90d53a36adc.bindPopup(popup_937b0bf4f624711ab5b71406768f44bc)
+        ;
+
+        
+    
+    
+            var poly_line_1ebd593ae6b01135e6b22ae6888ab9d4 = L.polyline(
+                [[0.0, 0.0], [43.5489, -96.2523], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_30b25f12123ef1d2cb9a87c0f5c4c3a7 = L.marker(
+                [39.8745, -104.3109],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_f50a840b8473f35bf1f367d331f33bcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_30b25f12123ef1d2cb9a87c0f5c4c3a7.setIcon(icon_f50a840b8473f35bf1f367d331f33bcd);
+        
+    
+        var popup_de98154f0b0cd5927d4b9aa0b1bd65a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e47ad5d95de1c54fa5ccd0a5888d88a5 = $(`<div id="html_e47ad5d95de1c54fa5ccd0a5888d88a5" style="width: 100.0%; height: 100.0%;">ID: N555AV  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 39.8745<br>Longitud: -104.3109<br>Velocidad: 74.21 m/s<br>Altitud: 2331.72 m</div>`)[0];
+                popup_de98154f0b0cd5927d4b9aa0b1bd65a1.setContent(html_e47ad5d95de1c54fa5ccd0a5888d88a5);
+            
+        
+
+        marker_30b25f12123ef1d2cb9a87c0f5c4c3a7.bindPopup(popup_de98154f0b0cd5927d4b9aa0b1bd65a1)
+        ;
+
+        
+    
+    
+            var poly_line_ca32b0f15b5e458b46b7d4f94b2c9f88 = L.polyline(
+                [[0.0, 0.0], [39.8745, -104.3109], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_4c3c03fccef8de4e397d0f4bc0938ede = L.marker(
+                [34.4253, -78.8557],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_9587dfb420cf81dec4170418502bf69b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4c3c03fccef8de4e397d0f4bc0938ede.setIcon(icon_9587dfb420cf81dec4170418502bf69b);
+        
+    
+        var popup_1eb67eabc3b517a75814ff0ee8dd2558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4b4c869e1af3d1b3235da3cfadc94c3 = $(`<div id="html_a4b4c869e1af3d1b3235da3cfadc94c3" style="width: 100.0%; height: 100.0%;">ID: VXP719  <br>Origen: United States<br>Destino: 1719505130<br>Latitud: 34.4253<br>Longitud: -78.8557<br>Velocidad: 222.48 m/s<br>Altitud: 10934.7 m</div>`)[0];
+                popup_1eb67eabc3b517a75814ff0ee8dd2558.setContent(html_a4b4c869e1af3d1b3235da3cfadc94c3);
+            
+        
+
+        marker_4c3c03fccef8de4e397d0f4bc0938ede.bindPopup(popup_1eb67eabc3b517a75814ff0ee8dd2558)
+        ;
+
+        
+    
+    
+            var poly_line_11d119fda79fe892711ffae2aeeeaf00 = L.polyline(
+                [[0.0, 0.0], [34.4253, -78.8557], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_d3c0616d74e23d17c2bd0aad8e1bbcbf = L.marker(
+                [43.1206, -88.0478],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_4b89ef8a3cac14698d892c73be650299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d3c0616d74e23d17c2bd0aad8e1bbcbf.setIcon(icon_4b89ef8a3cac14698d892c73be650299);
+        
+    
+        var popup_2af81d10d9db775862eb372ec75edf1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d33c8d34dac29f8db33bd2ddf6dc611 = $(`<div id="html_5d33c8d34dac29f8db33bd2ddf6dc611" style="width: 100.0%; height: 100.0%;">ID: N4872D  <br>Origen: United States<br>Destino: 1719505026<br>Latitud: 43.1206<br>Longitud: -88.0478<br>Velocidad: 48.39 m/s<br>Altitud: 502.92 m</div>`)[0];
+                popup_2af81d10d9db775862eb372ec75edf1a.setContent(html_5d33c8d34dac29f8db33bd2ddf6dc611);
+            
+        
+
+        marker_d3c0616d74e23d17c2bd0aad8e1bbcbf.bindPopup(popup_2af81d10d9db775862eb372ec75edf1a)
+        ;
+
+        
+    
+    
+            var poly_line_e88cc530fad363b020a6fef6ed802262 = L.polyline(
+                [[0.0, 0.0], [43.1206, -88.0478], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_e26d29646a5bfe4023ea99ded66f3aaf = L.marker(
+                [41.5285, 0.2637],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_51267c5ccf854c1261db0cbac1f83f5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e26d29646a5bfe4023ea99ded66f3aaf.setIcon(icon_51267c5ccf854c1261db0cbac1f83f5c);
+        
+    
+        var popup_55047885014c33ec143ae42cc4a6f5b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06e8e48823a3df0855aa3464fa6dc544 = $(`<div id="html_06e8e48823a3df0855aa3464fa6dc544" style="width: 100.0%; height: 100.0%;">ID: JAF523  <br>Origen: Estonia<br>Destino: 1719505131<br>Latitud: 41.5285<br>Longitud: 0.2637<br>Velocidad: 227.63 m/s<br>Altitud: 10622.28 m</div>`)[0];
+                popup_55047885014c33ec143ae42cc4a6f5b9.setContent(html_06e8e48823a3df0855aa3464fa6dc544);
+            
+        
+
+        marker_e26d29646a5bfe4023ea99ded66f3aaf.bindPopup(popup_55047885014c33ec143ae42cc4a6f5b9)
+        ;
+
+        
+    
+    
+            var poly_line_8aaf4c83948b41672c4f9d34a5d4c449 = L.polyline(
+                [[0.0, 0.0], [41.5285, 0.2637], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_ffa2ba4fb6c4db4a1c3c0a869a3f0794 = L.marker(
+                [40.7761, -73.8733],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_d77c9c1af331f68e591395c8e6f14679 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ffa2ba4fb6c4db4a1c3c0a869a3f0794.setIcon(icon_d77c9c1af331f68e591395c8e6f14679);
+        
+    
+        var popup_85c3ab46a8800133bbad699fae1d2b04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3c078ec4f5bb1912312d036bdfdc75 = $(`<div id="html_bf3c078ec4f5bb1912312d036bdfdc75" style="width: 100.0%; height: 100.0%;">ID: AAL386  <br>Origen: United States<br>Destino: 1719505125<br>Latitud: 40.7761<br>Longitud: -73.8733<br>Velocidad: 0 m/s<br>Altitud: None m</div>`)[0];
+                popup_85c3ab46a8800133bbad699fae1d2b04.setContent(html_bf3c078ec4f5bb1912312d036bdfdc75);
+            
+        
+
+        marker_ffa2ba4fb6c4db4a1c3c0a869a3f0794.bindPopup(popup_85c3ab46a8800133bbad699fae1d2b04)
+        ;
+
+        
+    
+    
+            var poly_line_707efd662115750c320d186b009dc9b5 = L.polyline(
+                [[0.0, 0.0], [40.7761, -73.8733], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_798797c46106bc74bbac9c26b6d12311 = L.marker(
+                [44.4938, -88.1107],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_b005efbf5305ac91358e1a9d49dbb356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_798797c46106bc74bbac9c26b6d12311.setIcon(icon_b005efbf5305ac91358e1a9d49dbb356);
+        
+    
+        var popup_52252c86b1fda72288265e30446b4e32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc78ca306f46d7aedd2e3128e03843f6 = $(`<div id="html_bc78ca306f46d7aedd2e3128e03843f6" style="width: 100.0%; height: 100.0%;">ID: N284WB  <br>Origen: United States<br>Destino: 1719505126<br>Latitud: 44.4938<br>Longitud: -88.1107<br>Velocidad: 43.33 m/s<br>Altitud: 190.5 m</div>`)[0];
+                popup_52252c86b1fda72288265e30446b4e32.setContent(html_bc78ca306f46d7aedd2e3128e03843f6);
+            
+        
+
+        marker_798797c46106bc74bbac9c26b6d12311.bindPopup(popup_52252c86b1fda72288265e30446b4e32)
+        ;
+
+        
+    
+    
+            var poly_line_0ced8ac5a7054ff2cd829bdb48f2bc59 = L.polyline(
+                [[0.0, 0.0], [44.4938, -88.1107], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_bd5446a51afb145fb14ac7bb87f688a9 = L.marker(
+                [35.2916, -82.0064],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_822ee2b405fa75834837049e94d66468 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd5446a51afb145fb14ac7bb87f688a9.setIcon(icon_822ee2b405fa75834837049e94d66468);
+        
+    
+        var popup_4c859fc45dfb2827d5949b08c7bd201c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e95c0d29c0fc0349460e54a6f14cf49 = $(`<div id="html_8e95c0d29c0fc0349460e54a6f14cf49" style="width: 100.0%; height: 100.0%;">ID: N459VP  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 35.2916<br>Longitud: -82.0064<br>Velocidad: 204.6 m/s<br>Altitud: 13784.58 m</div>`)[0];
+                popup_4c859fc45dfb2827d5949b08c7bd201c.setContent(html_8e95c0d29c0fc0349460e54a6f14cf49);
+            
+        
+
+        marker_bd5446a51afb145fb14ac7bb87f688a9.bindPopup(popup_4c859fc45dfb2827d5949b08c7bd201c)
+        ;
+
+        
+    
+    
+            var poly_line_834decdb6a2fd4afbf57479a10ba79ca = L.polyline(
+                [[0.0, 0.0], [35.2916, -82.0064], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_a1ffd76c793f74d75f1e5e2d6dbca0d9 = L.marker(
+                [31.1537, -81.4246],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_d0f87451b5e51b18dbd47769582b1322 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a1ffd76c793f74d75f1e5e2d6dbca0d9.setIcon(icon_d0f87451b5e51b18dbd47769582b1322);
+        
+    
+        var popup_7b2e77c30d9f019538567215fa8bb4a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c8367743f7bc70233703ced6e3e73be = $(`<div id="html_3c8367743f7bc70233703ced6e3e73be" style="width: 100.0%; height: 100.0%;">ID: N211TS  <br>Origen: United States<br>Destino: 1719504972<br>Latitud: 31.1537<br>Longitud: -81.4246<br>Velocidad: 89.65 m/s<br>Altitud: 3528.06 m</div>`)[0];
+                popup_7b2e77c30d9f019538567215fa8bb4a7.setContent(html_3c8367743f7bc70233703ced6e3e73be);
+            
+        
+
+        marker_a1ffd76c793f74d75f1e5e2d6dbca0d9.bindPopup(popup_7b2e77c30d9f019538567215fa8bb4a7)
+        ;
+
+        
+    
+    
+            var poly_line_ad116bafb0ae0d0d9ffbe1e3fe9dc34f = L.polyline(
+                [[0.0, 0.0], [31.1537, -81.4246], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_670e860fe2ee9bf2b08fd9f540b881d1 = L.marker(
+                [13.1883, 77.8584],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_1cf74d9aa75537f2f9565c79ad21dfd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_670e860fe2ee9bf2b08fd9f540b881d1.setIcon(icon_1cf74d9aa75537f2f9565c79ad21dfd9);
+        
+    
+        var popup_de28bb0d0498cba059c5d6c08eb13fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bca394a90d5e34e379d1ef0b171c536 = $(`<div id="html_0bca394a90d5e34e379d1ef0b171c536" style="width: 100.0%; height: 100.0%;">ID: IGO6922 <br>Origen: Estonia<br>Destino: 1719505123<br>Latitud: 13.1883<br>Longitud: 77.8584<br>Velocidad: 73.57 m/s<br>Altitud: 1607.82 m</div>`)[0];
+                popup_de28bb0d0498cba059c5d6c08eb13fb1.setContent(html_0bca394a90d5e34e379d1ef0b171c536);
+            
+        
+
+        marker_670e860fe2ee9bf2b08fd9f540b881d1.bindPopup(popup_de28bb0d0498cba059c5d6c08eb13fb1)
+        ;
+
+        
+    
+    
+            var poly_line_e34f993960c17484d13e3ead1c759db7 = L.polyline(
+                [[0.0, 0.0], [13.1883, 77.8584], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_719c0519a311a85648f814eba0ad14fa = L.marker(
+                [43.9832, -80.1281],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_53f000bd98698af60fa35632e7c6b234 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_719c0519a311a85648f814eba0ad14fa.setIcon(icon_53f000bd98698af60fa35632e7c6b234);
+        
+    
+        var popup_1ff7a3ae652cb7a0b0a09ec05f472dcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6277eeea42c2b3767cf52dde676fc69 = $(`<div id="html_b6277eeea42c2b3767cf52dde676fc69" style="width: 100.0%; height: 100.0%;">ID: CGBFJ   <br>Origen: Canada<br>Destino: 1719505130<br>Latitud: 43.9832<br>Longitud: -80.1281<br>Velocidad: 45.93 m/s<br>Altitud: 1021.08 m</div>`)[0];
+                popup_1ff7a3ae652cb7a0b0a09ec05f472dcb.setContent(html_b6277eeea42c2b3767cf52dde676fc69);
+            
+        
+
+        marker_719c0519a311a85648f814eba0ad14fa.bindPopup(popup_1ff7a3ae652cb7a0b0a09ec05f472dcb)
+        ;
+
+        
+    
+    
+            var poly_line_e0e5047ae9318243ba82b5c5863acbd5 = L.polyline(
+                [[0.0, 0.0], [43.9832, -80.1281], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_3e77f09374a913774aa35b05e44401ce = L.marker(
+                [44.6883, -91.6753],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_4b9718771d576e6dd375176c75071d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3e77f09374a913774aa35b05e44401ce.setIcon(icon_4b9718771d576e6dd375176c75071d97);
+        
+    
+        var popup_82216c259adbe495e168ae8e4668750a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e184975bf925679313cf9944938ac682 = $(`<div id="html_e184975bf925679313cf9944938ac682" style="width: 100.0%; height: 100.0%;">ID: DAL1575 <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 44.6883<br>Longitud: -91.6753<br>Velocidad: 165.28 m/s<br>Altitud: 8046.72 m</div>`)[0];
+                popup_82216c259adbe495e168ae8e4668750a.setContent(html_e184975bf925679313cf9944938ac682);
+            
+        
+
+        marker_3e77f09374a913774aa35b05e44401ce.bindPopup(popup_82216c259adbe495e168ae8e4668750a)
+        ;
+
+        
+    
+    
+            var poly_line_3ede84f1625148e0098a6837ee20ec28 = L.polyline(
+                [[0.0, 0.0], [44.6883, -91.6753], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_b22fcecf0ae53df398e9226e4e4dafe2 = L.marker(
+                [42.1472, -83.4283],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_fed182e01e0b7d650aa9f68c31e9d1bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b22fcecf0ae53df398e9226e4e4dafe2.setIcon(icon_fed182e01e0b7d650aa9f68c31e9d1bb);
+        
+    
+        var popup_be1ab44d50ac17ee236c6e3bc9efbe30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_338261ffd582f31f9c10808d78f2027e = $(`<div id="html_338261ffd582f31f9c10808d78f2027e" style="width: 100.0%; height: 100.0%;">ID: DAL1654 <br>Origen: United States<br>Destino: 1719505130<br>Latitud: 42.1472<br>Longitud: -83.4283<br>Velocidad: 77.55 m/s<br>Altitud: 563.88 m</div>`)[0];
+                popup_be1ab44d50ac17ee236c6e3bc9efbe30.setContent(html_338261ffd582f31f9c10808d78f2027e);
+            
+        
+
+        marker_b22fcecf0ae53df398e9226e4e4dafe2.bindPopup(popup_be1ab44d50ac17ee236c6e3bc9efbe30)
+        ;
+
+        
+    
+    
+            var poly_line_621180f2fd2576ce6bb0d48529c54ac2 = L.polyline(
+                [[0.0, 0.0], [42.1472, -83.4283], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_df88483e5360e22e6e489e100a04203a = L.marker(
+                [28.7365, -80.1843],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_9c13b08348cf45fd8393dc3b9f15bd50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_df88483e5360e22e6e489e100a04203a.setIcon(icon_9c13b08348cf45fd8393dc3b9f15bd50);
+        
+    
+        var popup_529b93ab30e014f9e6e6c1ec07df3c21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc20ee7c094bf04ff569132fee24db44 = $(`<div id="html_dc20ee7c094bf04ff569132fee24db44" style="width: 100.0%; height: 100.0%;">ID: AAL859  <br>Origen: United States<br>Destino: 1719505131<br>Latitud: 28.7365<br>Longitud: -80.1843<br>Velocidad: 241.43 m/s<br>Altitud: 10347.96 m</div>`)[0];
+                popup_529b93ab30e014f9e6e6c1ec07df3c21.setContent(html_dc20ee7c094bf04ff569132fee24db44);
+            
+        
+
+        marker_df88483e5360e22e6e489e100a04203a.bindPopup(popup_529b93ab30e014f9e6e6c1ec07df3c21)
+        ;
+
+        
+    
+    
+            var poly_line_6b25b8230f53c965a0d0abdd1d43972c = L.polyline(
+                [[0.0, 0.0], [28.7365, -80.1843], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_acfb71d8c92e159011b0cdbd45e0befd = L.marker(
+                [40.4905, 18.6749],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_9ddaec0423bf7b5fc00a5848040a1f12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_acfb71d8c92e159011b0cdbd45e0befd.setIcon(icon_9ddaec0423bf7b5fc00a5848040a1f12);
+        
+    
+        var popup_d7be6ceb9ee56363905d3524fb9eb8e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6cad9748cb9a4623bb4cf8da6e7ab96 = $(`<div id="html_d6cad9748cb9a4623bb4cf8da6e7ab96" style="width: 100.0%; height: 100.0%;">ID: EZY27UW <br>Origen: United Kingdom<br>Destino: 1719504917<br>Latitud: 40.4905<br>Longitud: 18.6749<br>Velocidad: 202.27 m/s<br>Altitud: 11437.62 m</div>`)[0];
+                popup_d7be6ceb9ee56363905d3524fb9eb8e8.setContent(html_d6cad9748cb9a4623bb4cf8da6e7ab96);
+            
+        
+
+        marker_acfb71d8c92e159011b0cdbd45e0befd.bindPopup(popup_d7be6ceb9ee56363905d3524fb9eb8e8)
+        ;
+
+        
+    
+    
+            var poly_line_3724b625f5c29f8f62e19340c7566ce0 = L.polyline(
+                [[0.0, 0.0], [40.4905, 18.6749], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_793ea197b9973405bcf9f0f3b8f9b13d = L.marker(
+                [22.6619, 88.4448],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_12bb8b362372df57ef019cb9070cc273 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_793ea197b9973405bcf9f0f3b8f9b13d.setIcon(icon_12bb8b362372df57ef019cb9070cc273);
+        
+    
+        var popup_30e76a52cffc2e10f4f3e27096a5d9ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_698c496be68052ff633c95e5d62efe60 = $(`<div id="html_698c496be68052ff633c95e5d62efe60" style="width: 100.0%; height: 100.0%;">ID: <br>Origen: India<br>Destino: 1719505129<br>Latitud: 22.6619<br>Longitud: 88.4448<br>Velocidad: 8.23 m/s<br>Altitud: None m</div>`)[0];
+                popup_30e76a52cffc2e10f4f3e27096a5d9ea.setContent(html_698c496be68052ff633c95e5d62efe60);
+            
+        
+
+        marker_793ea197b9973405bcf9f0f3b8f9b13d.bindPopup(popup_30e76a52cffc2e10f4f3e27096a5d9ea)
+        ;
+
+        
+    
+    
+            var poly_line_60099c31f8ad29669c5a82a1c9da61cb = L.polyline(
+                [[0.0, 0.0], [22.6619, 88.4448], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_3ef4e1b9a966a1a5b5cba0b394f223ae = L.marker(
+                [40.7722, -73.8801],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_cbcca87dc886225a8240e444d7d3dfa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3ef4e1b9a966a1a5b5cba0b394f223ae.setIcon(icon_cbcca87dc886225a8240e444d7d3dfa7);
+        
+    
+        var popup_8a9ec62a1fcd70547fee6263014c9d33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78f4c7277ba55db63c7eb88913914874 = $(`<div id="html_78f4c7277ba55db63c7eb88913914874" style="width: 100.0%; height: 100.0%;">ID: SKW125X <br>Origen: United States<br>Destino: 1719505045<br>Latitud: 40.7722<br>Longitud: -73.8801<br>Velocidad: 1.03 m/s<br>Altitud: None m</div>`)[0];
+                popup_8a9ec62a1fcd70547fee6263014c9d33.setContent(html_78f4c7277ba55db63c7eb88913914874);
+            
+        
+
+        marker_3ef4e1b9a966a1a5b5cba0b394f223ae.bindPopup(popup_8a9ec62a1fcd70547fee6263014c9d33)
+        ;
+
+        
+    
+    
+            var poly_line_0a56b25c12f43485546c9b0af5ca215c = L.polyline(
+                [[0.0, 0.0], [40.7722, -73.8801], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_42e142bce9a5c7fe7e27d4c087c60e19 = L.marker(
+                [36.9591, 25.8481],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_0a037ba96db4574662c5266be82557ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_42e142bce9a5c7fe7e27d4c087c60e19.setIcon(icon_0a037ba96db4574662c5266be82557ab);
+        
+    
+        var popup_4e501c5d8415ac7de349f9cdfe40be2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b63be2e6b4854fc8f23eaba2f216fdcc = $(`<div id="html_b63be2e6b4854fc8f23eaba2f216fdcc" style="width: 100.0%; height: 100.0%;">ID: TVF32WZ <br>Origen: France<br>Destino: 1719505131<br>Latitud: 36.9591<br>Longitud: 25.8481<br>Velocidad: 206.53 m/s<br>Altitud: 11559.54 m</div>`)[0];
+                popup_4e501c5d8415ac7de349f9cdfe40be2c.setContent(html_b63be2e6b4854fc8f23eaba2f216fdcc);
+            
+        
+
+        marker_42e142bce9a5c7fe7e27d4c087c60e19.bindPopup(popup_4e501c5d8415ac7de349f9cdfe40be2c)
+        ;
+
+        
+    
+    
+            var poly_line_2191b027b2640256408a8a513b82e808 = L.polyline(
+                [[0.0, 0.0], [36.9591, 25.8481], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_7686a403b3b8cef4398e1f9aacdd1aa1 = L.marker(
+                [47.6128, 1.3441],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_121ca795ad2e5ff34fbc5983a784002d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7686a403b3b8cef4398e1f9aacdd1aa1.setIcon(icon_121ca795ad2e5ff34fbc5983a784002d);
+        
+    
+        var popup_7406774ae19ea9499ecd873413734629 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bb564e5332d82bbbdbb62184691427d = $(`<div id="html_9bb564e5332d82bbbdbb62184691427d" style="width: 100.0%; height: 100.0%;">ID: TVF34LQ <br>Origen: France<br>Destino: 1719505131<br>Latitud: 47.6128<br>Longitud: 1.3441<br>Velocidad: 241.7 m/s<br>Altitud: 7719.06 m</div>`)[0];
+                popup_7406774ae19ea9499ecd873413734629.setContent(html_9bb564e5332d82bbbdbb62184691427d);
+            
+        
+
+        marker_7686a403b3b8cef4398e1f9aacdd1aa1.bindPopup(popup_7406774ae19ea9499ecd873413734629)
+        ;
+
+        
+    
+    
+            var poly_line_407c2aa918c2eef2a7333ed30e18d93e = L.polyline(
+                [[0.0, 0.0], [47.6128, 1.3441], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var marker_08f54696317d7eb2105c474f58e9f7bc = L.marker(
+                [57.9525, -5.3624],
+                {}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+    
+            var icon_e929f5875c9ef159aaacc2033721a307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_08f54696317d7eb2105c474f58e9f7bc.setIcon(icon_e929f5875c9ef159aaacc2033721a307);
+        
+    
+        var popup_140901b10d5f3a38560dd17a476fa922 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_855a56241afea64f95d85b50381cd703 = $(`<div id="html_855a56241afea64f95d85b50381cd703" style="width: 100.0%; height: 100.0%;">ID: LOG78LC <br>Origen: United Kingdom<br>Destino: 1719505130<br>Latitud: 57.9525<br>Longitud: -5.3624<br>Velocidad: 134.14 m/s<br>Altitud: 3230.88 m</div>`)[0];
+                popup_140901b10d5f3a38560dd17a476fa922.setContent(html_855a56241afea64f95d85b50381cd703);
+            
+        
+
+        marker_08f54696317d7eb2105c474f58e9f7bc.bindPopup(popup_140901b10d5f3a38560dd17a476fa922)
+        ;
+
+        
+    
+    
+            var poly_line_adf8dc55ecd36cca423585e2aee3b674 = L.polyline(
+                [[0.0, 0.0], [57.9525, -5.3624], [0.0, 0.0]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_38d0ad968cb7329bedf198778048b840);
+        
+</script>
+</html>
