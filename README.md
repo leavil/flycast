@@ -19,6 +19,7 @@ FlyCast es una aplicación de gestión de rutas de vuelo diseñada para pilotos 
 1. Clona este repositorio: `git clone https://github.com/leavil/flycast.git`
 2. Instala las dependencias: `npm install`
 3. Inicia la aplicación: `npm start`
+4. Para instalar las dependencias requeridas para ejecutar el proyecto, abra un terminal, como por ejemplo el de Visual Studio Code, y escriba: pip install -r requirements.txt
 
 ## Contribuciones 🤝
 
