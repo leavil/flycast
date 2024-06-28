@@ -1,6 +1,7 @@
 # FlyCast ✈️
 
 FlyCast es una aplicación de gestión de rutas de vuelo diseñada para pilotos y entusiastas de la aviación. Permite a los usuarios planificar vuelos teniendo en cuenta el análisis predictivo del clima y proporciona herramientas para una navegación segura y conveniente.
+![Interfaz](\src\images\deploy.png)
 
 ## Características 🚀
 
@@ -14,11 +15,50 @@ FlyCast es una aplicación de gestión de rutas de vuelo diseñada para pilotos 
 - **Seguimiento en Tiempo Real de Otros Aviones**: Sigue y visualiza otros aviones en tiempo real que realicen la misma ruta de vuelo.
 - **Interfaz de Usuario Intuitiva**: Una interfaz amigable que permite a los usuarios navegar fácilmente por las diferentes funcionalidades.
 
+## Diagrama de Clases 📐
+
+El siguiente diagrama de clases representa la estructura y las relaciones entre las principales clases dentro del sistema FlyCast. Este diagrama es fundamental para comprender cómo están organizados los componentes del proyecto y cómo interactúan entre sí.
+
+![Diagrama de Clases](\src\images\diagram\UML.png")
+
+### Explicación de las Clases Principales:
+
+1. **Usuario (`User`)**:
+
+   - **Descripción**: Representa a un usuario registrado en el sistema.
+   - **Atributos**: Incluye datos como el nombre de usuario, correo electrónico y preferencias de notificación.
+   - **Métodos**: Pueden incluir métodos para la gestión de perfiles y configuraciones de cuenta.
+
+2. **Ruta (`FlightRoute`)**:
+
+   - **Descripción**: Modela una ruta de vuelo planificada por un usuario.
+   - **Atributos**: Puede incluir coordenadas de inicio y destino, fecha y hora de salida, y detalles meteorológicos asociados.
+   - **Métodos**: Podría tener métodos para calcular la duración estimada del vuelo y realizar análisis predictivo del clima.
+
+3. **Notificación (`Notification`)**:
+
+   - **Descripción**: Representa una notificación enviada al usuario sobre cambios climáticos severos u otras actualizaciones importantes.
+   - **Atributos**: Incluye detalles del mensaje y la fecha/hora de envío.
+   - **Métodos**: Pueden incluir métodos para gestionar el estado de la notificación y su visualización en la interfaz de usuario.
+
+4. **Interfaz de Usuario (`UserInterface`)**:
+   - **Descripción**: Gestiona la interacción del usuario con la aplicación FlyCast.
+   - **Atributos**: Puede contener referencias a otras clases como `FlightRoute` y `Notification`.
+   - **Métodos**: Facilita la navegación por la aplicación y la presentación de información relevante al usuario.
+
+### Relaciones entre Clases:
+
+- **Asociaciones**: Indicadas por líneas sólidas que conectan las clases. Por ejemplo, `User` puede tener múltiples `FlightRoute` asociadas.
+- **Herencias y Composiciones**: Se muestran con flechas y líneas punteadas según corresponda, para representar relaciones más específicas como herencia o composición entre clases.
+
+### Uso del Diagrama de Clases:
+
+El diagrama de clases proporciona una vista estructurada y detallada del diseño del sistema FlyCast. Facilita la comprensión de cómo interactúan los diferentes componentes del sistema y cómo se organizan las responsabilidades entre las clases. Este diagrama es crucial tanto para desarrolladores nuevos que se unan al proyecto como para el mantenimiento y la evolución continua de la aplicación.
+
 ## Instalación 🛠️
 
 1. Clona este repositorio: `git clone https://github.com/leavil/flycast.git`
-2. Instala las dependencias: `npm install`
-3. Inicia la aplicación: `npm start`
+2. Instala las dependencias, escriba en el terminal: `pip install -r requirements.txt`
 
 ## Contribuciones 🤝
 

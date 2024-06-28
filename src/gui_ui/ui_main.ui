@@ -775,7 +775,7 @@ QPushButton:pressed {
                  </size>
                 </property>
                 <property name="toolTip">
-                 <string>Android</string>
+                 <string>Weather</string>
                 </property>
                 <property name="styleSheet">
                  <string notr="true">QPushButton {
@@ -1000,38 +1000,5 @@ QPushButton:pressed {
   </widget>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>bn_min</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>514</x>
-     <y>31</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>281</x>
-     <y>-3</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>bn_close</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>close()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>569</x>
-     <y>35</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>400</x>
-     <y>-8</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

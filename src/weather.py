@@ -4,7 +4,6 @@ import urllib.request
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QWidget, QLabel, QLineEdit, QPushButton, QDialog
 from PyQt5.QtWebEngineWidgets import QWebEngineView
 import folium
-from folium.plugins import MarkerCluster
 
 class WeatherApp(QMainWindow):
     def __init__(self):
@@ -37,22 +36,61 @@ class WeatherApp(QMainWindow):
         # Clear previous markers
         self.map = folium.Map(prefer_canvas=True, zoom_start=2)
 
-        # Get weather data from a public endpoint (example: OpenWeatherMap)
-        url = f'http://api.openweathermap.org/data/2.5/weather?q={location}&appid=YOUR_API_KEY&units=metric'  # Replace YOUR_API_KEY with your actual API key
-        with urllib.request.urlopen(url) as response:
-            data = json.loads(response.read().decode())
-        
-        if data:
-            lat = data['coord']['lat']
-            lon = data['coord']['lon']
-            weather_state = data['weather'][0]['main']
-            temperature = data['main']['temp']
+        # Get weather data from Visual Crossing API
+        api_key = 'VPZFXMYBUW7RUM4GYJ3Z7CA44'
+        url = f'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{location}?unitGroup=metric&include=days%2Calerts&key={api_key}&contentType=json'
 
-            # Add marker to the map
-            folium.Marker([lat, lon], popup=f'Temperature: {temperature}°C, Weather: {weather_state}').add_to(self.map)
+        try:
+            with urllib.request.urlopen(url) as response:
+                data = json.loads(response.read().decode())
 
-        # Refresh map view
-        self.map_view.setHtml(self.map._repr_html_())
+            print("JSON response:")
+            print(json.dumps(data, indent=4))  # Print the JSON response to understand its structure
+
+            if 'days' in data:
+                for day_data in data['days']:
+                    # Default coordinates to the location provided
+                    lat = data.get('latitude', 40.463667)
+                    lon = data.get('longitude', -3.74922)
+
+                    # Extract daily weather data
+                    date = day_data['datetime']
+                    temp_max = day_data['tempmax']
+                    temp_min = day_data['tempmin']
+                    conditions = day_data['conditions']
+
+                    # Add markers for each day
+                    popup_text = f'Date: {date}<br>Max Temp: {temp_max}°C<br>Min Temp: {temp_min}°C<br>Weather: {conditions}'
+                    folium.Marker([lat, lon], popup=popup_text).add_to(self.map)
+
+                    # Color the map based on temperature
+                    color = self.get_color(temp_max)
+                    folium.CircleMarker(
+                        location=[lat, lon],
+                        radius=10,
+                        color=color,
+                        fill=True,
+                        fill_color=color
+                    ).add_to(self.map)
+
+                # Convert Folium map to HTML and update QWebEngineView
+                html_map = self.map._repr_html_()
+                self.map_view.setHtml(html_map)
+
+        except Exception as e:
+            print(f"Error fetching weather data: {e}")
+
+    def get_color(self, temp):
+        if temp <= 0:
+            return 'blue'
+        elif 0 < temp <= 10:
+            return 'green'
+        elif 10 < temp <= 20:
+            return 'yellow'
+        elif 20 < temp <= 30:
+            return 'orange'
+        else:
+            return 'red'
 
     def closeEvent(self, event):
         self.map_view.close()

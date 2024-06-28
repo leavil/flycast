@@ -376,8 +376,6 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.bn_min.clicked.connect(MainWindow.hide) # type: ignore
-        self.bn_close.clicked.connect(MainWindow.close) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -389,6 +387,6 @@ class Ui_MainWindow(object):
         self.bn_close.setToolTip(_translate("MainWindow", "Close"))
         self.bn_home.setToolTip(_translate("MainWindow", "Home"))
         self.bn_plane.setToolTip(_translate("MainWindow", "Plane"))
-        self.bn_weather.setToolTip(_translate("MainWindow", "Android"))
+        self.bn_weather.setToolTip(_translate("MainWindow", "Weather"))
         self.bn_settings.setToolTip(_translate("MainWindow", "settings"))
         self.frame_drag.setToolTip(_translate("MainWindow", "Drag"))
