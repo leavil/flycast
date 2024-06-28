@@ -1,7 +1,7 @@
 # FlyCast ✈️
 
 FlyCast es una aplicación de gestión de rutas de vuelo diseñada para pilotos y entusiastas de la aviación. Permite a los usuarios planificar vuelos teniendo en cuenta el análisis predictivo del clima y proporciona herramientas para una navegación segura y conveniente.
-![Interfaz](\src\images\deploy.png)
+![Interfaz](src/images/deploy.png)
 
 ## Características 🚀
 
@@ -19,7 +19,7 @@ FlyCast es una aplicación de gestión de rutas de vuelo diseñada para pilotos 
 
 El siguiente diagrama de clases representa la estructura y las relaciones entre las principales clases dentro del sistema FlyCast. Este diagrama es fundamental para comprender cómo están organizados los componentes del proyecto y cómo interactúan entre sí.
 
-![Diagrama de Clases](\src\images\diagram\UML.png")
+![Diagrama de Clases](src/images/diagram/UML.png)
 
 ### Explicación de las Clases Principales:
 
